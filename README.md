@@ -1,4 +1,3 @@
-
 # 🔐 Auth API (.NET)
 
 ![.NET](https://img.shields.io/badge/.NET-8-blue)
@@ -125,33 +124,6 @@ https://localhost:7018/swagger
 - Role-based access control  
 
 ---
-## 🔥 Example Flow
-
-1. Register user
-2. Login → get JWT token
-3. Call protected endpoint
-
----
-
-## 🔑 Example JWT Response
-
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}
-
----
-
-## ▶️ How to Run
-
-```bash
-dotnet run
-
----
-
-## 💡 Use Case
-
-This API simulates an authentication system used in banking or enterprise applications,
-where users must authenticate to access protected resources.
 
 ## 📈 Future Improvements
 
